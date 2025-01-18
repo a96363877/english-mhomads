@@ -1348,9 +1348,9 @@ function Landing(props: { handleNextPage: any }) {
                       <button
                         onClick={() =>
                           handleAddtoCart({
-                            id: 0,
+                            id: 10,
                             name: '10 kg fresh Kuwaiti jumbo shrimp',
-                            price: '8.0',
+                            price: '5.0',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           })
                         }
