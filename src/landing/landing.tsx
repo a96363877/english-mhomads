@@ -787,7 +787,7 @@ function Landing(props: { handleNextPage: any }) {
                     <p className="Typography_p8">4.7</p>
                   </div>
                   <p className="Typography_p8 MerchantCard_tags___u15_">
-                    Fresh imported fish and premium shrimp
+                  Norwegian Salmon – “Fresh and special”
                   </p>
                 </div>
               </div>
@@ -916,8 +916,10 @@ function Landing(props: { handleNextPage: any }) {
               </h2>
               <div
                 className="BestSelling_group__aDxsJ"
-                style={{ position: 'relative', overflow: 'scroll' }}
+                style={{ position: 'relative', overflowX: 'auto' }}
               >
+                
+                
                 <div className="pro_1">
                   <div
                     className="ProductCardVertical_wrapper__q1lzz BestSelling_first__or9rS"
@@ -1212,6 +1214,134 @@ function Landing(props: { handleNextPage: any }) {
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         Cartoon 10 kg Jumbo shrimp مقشر
+                      </p>
+                    </div>
+                    <div className="a_pluss_3">
+                      <button
+                        onClick={() =>
+                          handleAddtoCart({
+                            id: 0,
+                            name: '10 kg fresh Kuwaiti jumbo shrimp',
+                            price: '8.0',
+                            img: '/kuwaiti-jumbo-robian-10kg.jpg',
+                          })
+                        }
+                        type="button"
+                        className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
+                        data-product-id="product_3"
+                        data-product-image="https://sam-five-snowy.vercel.app/images/1.png"
+                        data-product-name="Cartoon 10 kg Jumbo shrimp مقشر"
+                        data-product-price={8.0}
+                        data-class-add="btn_add_3"
+                        data-class-remove="btn_remove_3"
+                        data-class-pluss="btn_pluss_3"
+                        data-class-aremove="a_pluss_3"
+                        data-quantity-id="quantity_3"
+                        data-qquantity-id="qquantity_3"
+                      >
+                        <span className="Button_content btn_add_3">Add +</span>
+                        <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_3 d-none" />
+                      </button>
+                    </div>
+                    <div className="defualt_3 ProductButton_productButton___1dmt ProductButton_secondary__qDYDR ProductButton_normal__jOR_t ProductCardHorizontal_productButton__aQoPQ btn_pluss_3  d-none ">
+                      <a
+                        className="updatecart"
+                        data-type="minus"
+                        data-product-id="product_3"
+                        data-quantity-id="quantity_3"
+                        data-defualt="defualt_3"
+                        data-loadd="loadd_3"
+                      >
+                        <span
+                          data-test-id=""
+                          className="Icon_icon ProductButton_icon__XyfwX"
+                        >
+                          <span className="minus">
+                            <img
+                              className="asyncicon"
+                              alt="icon"
+                              decoding="async"
+                              data-nimg="fill"
+                              src="/minus.3902b821.svg"
+                            />
+                          </span>
+                        </span>
+                      </a>
+                      <h5
+                        id="qquantity_3"
+                        className="Typography_h5__MRrA0 quantity_3"
+                      >
+                        0
+                      </h5>
+                      <a
+                        className="updatecart"
+                        data-type="plus"
+                        data-product-id="product_3"
+                        data-quantity-id="quantity_3"
+                        data-defualt="defualt_3"
+                        data-loadd="loadd_3"
+                      >
+                        <span
+                          data-test-id=""
+                          className="Icon_icon ProductButton_icon__XyfwX"
+                        >
+                          <span className="minus">
+                            <img
+                              alt="icon"
+                              decoding="async"
+                              data-nimg="fill"
+                              className="asyncicon"
+                              src="/plus.d7f13c1f.svg"
+                            />
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                    <div className="d-none loadd_3">
+                      <a className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t">
+                        <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_3 " />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="pro_4">
+                  <div
+                    className="ProductCardVertical_wrapper__q1lzz"
+                    data-id="jumbo-robian-10kg"
+                  >
+                    <div className="CardProductImage_imageWrapper__0rzrL ProductCardVertical_image__B5TvN">
+                      <span className="minus">
+                        <img
+                          alt="ساوردو ومولتيجرين"
+                          src="/unnamed.jpg"
+                          decoding="async"
+                          data-nimg="fill"
+                          style={{
+                            position: 'absolute',
+                            inset: 0,
+                            boxSizing: 'border-box',
+                            padding: 0,
+                            border: 'medium',
+                            margin: 'auto',
+                            display: 'block',
+                            width: 0,
+                            height: 0,
+                            minWidth: '100%',
+                            maxWidth: '100%',
+                            minHeight: '100%',
+                            maxHeight: '100%',
+                            objectFit: 'cover',
+                          }}
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                    <div className="ProductCartVerticalDescription_info__0FmOx">
+                      <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
+                      5.00 KD
+                      </h5>
+                      <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
+                      Norwegian Salmon – “Fresh and special”
                       </p>
                     </div>
                     <div className="a_pluss_3">
