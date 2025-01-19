@@ -1630,4 +1630,7 @@ body:has(div.CartRecommendation_wrapper__lyHOl){overflow-x:hidden}
 .Checkout_col__B3OvX{flex-basis:50%} .d-none
 {
    display: none!important;
-}
+}.cart:hover{
+   background: #1a1a1a !important;
+   color: white !important;
+ }

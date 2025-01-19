@@ -646,17 +646,17 @@ function Landing(props: { handleNextPage: any }) {
               </div>
               <div className="Carousel_navButtonWrapper__gL_66" />
             </div>
-            <div className="FilterPresets_wrapper__sSfR_">
+            <div className="FilterPresets_wrapper__sSfR_  " >
               <div className="FilterPresets_filterWrapper">
                 <div
                   data-analytic-label="fastFilter"
                   data-analytic-event-content={1}
                   data-analytic-event-action="filter_apply"
-                  className="FilterPresets_filter__czMu5 FilterPresets_first__ID2kE"
+                  className="FilterPresets_filter__czMu5 cart FilterPresets_first__ID2kE"
                 >
                   <span
                     data-test-id=""
-                    className="Icon_icon FilterPresets_icon"
+                    className="Icon_icon FilterPresets_icon "
                     style={{ width: 24, height: 24 }}
                   >
                     <span className="minus">
@@ -670,15 +670,15 @@ function Landing(props: { handleNextPage: any }) {
                       <noscript />
                     </span>
                   </span>
-                  <p className="Typography_p6__xuxGw">Free Delivery</p>
+                  <p className="Typography_p6__xuxGw ">Free Delivery</p>
                 </div>
               </div>
-              <div className="FilterPresets_filterWrapper">
+              <div className="FilterPresets_filterWrapper ">
                 <div
                   data-analytic-label="fastFilter"
                   data-analytic-event-content={2}
                   data-analytic-event-action="filter_apply"
-                  className="FilterPresets_filter__czMu5"
+                  className="FilterPresets_filter__czMu5 cart"
                 >
                   <p className="Typography_p6__xuxGw">Within 40 minutes</p>
                 </div>
@@ -688,7 +688,7 @@ function Landing(props: { handleNextPage: any }) {
                   data-analytic-label="fastFilter"
                   data-analytic-event-content={4}
                   data-analytic-event-action="filter_apply"
-                  className="FilterPresets_filter__czMu5 FilterPresets_last__3dQB8"
+                  className="FilterPresets_filter__czMu5 cart FilterPresets_last__3dQB8"
                 >
                   <p className="Typography_p6__xuxGw">Custom Transport</p>
                 </div>
