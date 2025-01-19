@@ -891,7 +891,7 @@ function Landing(props: { handleNextPage: any }) {
                       <span className="minus">
                         <img
                           alt="3 كرتون دجاج 10 حبة * 1000 جرام"
-                          src="https://sam-five-snowy.vercel.app/images/2.png"
+                          src="/sm.jpg"
                           decoding="async"
                           data-nimg="fill"
                           style={{
@@ -916,11 +916,10 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        8.000 KD
+                        5.000 KD
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-                        10 kg fresh Kuwaiti jumbo shrimp
-                      </p>
+                      Norwegian Salmon – “Fresh and Special”                      </p>
                     </div>
                     <div className="a_pluss_1">
                       <a
@@ -929,8 +928,8 @@ function Landing(props: { handleNextPage: any }) {
                         onClick={() => {
                           handleAddtoCart({
                             id: 0,
-                            name: '10 kg fresh Kuwaiti jumbo shrimp',
-                            price: '8.0',
+                            name: 'Norwegian Salmon – “Fresh and Special”',
+                            price: '5.0',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           });
                         }}
