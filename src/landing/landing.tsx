@@ -118,6 +118,9 @@ function Landing(props: { handleNextPage: any }) {
                       data-analytic-label="catalogMenuButton"
                       data-analytic-element-location="header"
                     >
+                            <a
+                    href="#cart"
+                  >
                       <span className="Button_content">
                         <span
                           data-test-id=""
@@ -171,6 +174,7 @@ function Landing(props: { handleNextPage: any }) {
                         </span>
                         <span className="CatalogButton_text">Menu</span>
                       </span>
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -1653,7 +1657,7 @@ function Landing(props: { handleNextPage: any }) {
                       />
                     </span>
                   </div>
-                  <div className="ProductCardHorizontal_info__FEa7G">
+                  <div className="ProductCardHorizontal_info__FEa7G" id="cart">
                     <div>
                       <h5 className="Typography_h5__MRrA0 ProductCardHorizontal_name__z0EMu">
                         Alwataniah Offer
