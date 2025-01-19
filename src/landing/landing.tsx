@@ -118,67 +118,67 @@ function Landing(props: { handleNextPage: any }) {
                       data-analytic-label="catalogMenuButton"
                       data-analytic-element-location="header"
                     >
-                            <a
-                    href="#cart"
-                  >
-                      <span className="Button_content">
-                        <span
-                          data-test-id=""
-                          className="Icon_icon Button_icon__Shlur"
-                        >
+                      <a
+                        href="#cart"
+                      >
+                        <span className="Button_content">
                           <span
-                            style={{
-                              boxSizing: 'border-box',
-                              display: 'block',
-                              overflow: 'hidden',
-                              width: 'initial',
-                              height: 'initial',
-                              background: 'none',
-                              opacity: 1,
-                              border: 0,
-                              margin: 0,
-                              padding: 0,
-                              position: 'absolute',
-                              top: 0,
-                              left: 0,
-                              bottom: 0,
-                              right: 0,
-                            }}
+                            data-test-id=""
+                            className="Icon_icon Button_icon__Shlur"
                           >
-                            <img
-                              alt="icon"
-                              src="/menu.4fcd2317.svg"
-                              decoding="async"
-                              data-nimg="fill"
+                            <span
                               style={{
+                                boxSizing: 'border-box',
+                                display: 'block',
+                                overflow: 'hidden',
+                                width: 'initial',
+                                height: 'initial',
+                                background: 'none',
+                                opacity: 1,
+                                border: 0,
+                                margin: 0,
+                                padding: 0,
                                 position: 'absolute',
                                 top: 0,
                                 left: 0,
                                 bottom: 0,
                                 right: 0,
-                                boxSizing: 'border-box',
-                                padding: 0,
-                                border: 'none',
-                                margin: 'auto',
-                                display: 'block',
-                                width: 0,
-                                height: 0,
-                                minWidth: '100%',
-                                maxWidth: '100%',
-                                minHeight: '100%',
-                                maxHeight: '100%',
-                                objectFit: 'contain',
                               }}
-                            />
+                            >
+                              <img
+                                alt="icon"
+                                src="/menu.4fcd2317.svg"
+                                decoding="async"
+                                data-nimg="fill"
+                                style={{
+                                  position: 'absolute',
+                                  top: 0,
+                                  left: 0,
+                                  bottom: 0,
+                                  right: 0,
+                                  boxSizing: 'border-box',
+                                  padding: 0,
+                                  border: 'none',
+                                  margin: 'auto',
+                                  display: 'block',
+                                  width: 0,
+                                  height: 0,
+                                  minWidth: '100%',
+                                  maxWidth: '100%',
+                                  minHeight: '100%',
+                                  maxHeight: '100%',
+                                  objectFit: 'contain',
+                                }}
+                              />
+                            </span>
                           </span>
+                          <span className="CatalogButton_text">Menu</span>
                         </span>
-                        <span className="CatalogButton_text">Menu</span>
-                      </span>
                       </a>
                     </button>
                   </div>
                 </div>
-             
+
                 <div className="Header_sideWrapper">
                   <div
                     className="CartButton_wrapper"
@@ -563,7 +563,7 @@ function Landing(props: { handleNextPage: any }) {
                     <p className="Typography_p8">4.7</p>
                   </div>
                   <p className="Typography_p8 MerchantCard_tags___u15_">
-                  Norwegian Salmon – “Fresh and special”
+                    Norwegian Salmon – “Fresh and special”
                   </p>
                 </div>
               </div>
@@ -613,7 +613,7 @@ function Landing(props: { handleNextPage: any }) {
                   </span>
                 </div>
               </div>
-            
+
               <div className="_slug__description___UXGB">
                 Order now through our website and get fast delivery within 28
                 minutes.
@@ -626,8 +626,266 @@ function Landing(props: { handleNextPage: any }) {
               <div
                 className="BestSelling_group__aDxsJ"
                 style={{ position: 'relative', overflowX: 'auto' }}
+              > <div className="pro_1">
+              <div
+                className="ProductCardVertical_wrapper__q1lzz BestSelling_first__or9rS"
+                data-id="kuwaiti-jumbo-robian-10kg"
               >
-                           <div className="pro_1">
+                <div className="CardProductImage_imageWrapper__0rzrL ProductCardVertical_image__B5TvN">
+                  <span className="minus">
+                    <img
+                      alt="3 كرتون دجاج 10 حبة * 1000 جرام"
+                      src="/robi.jpg"
+                      decoding="async"
+                      data-nimg="fill"
+                      style={{
+                        position: 'absolute',
+                        inset: 0,
+                        boxSizing: 'border-box',
+                        padding: 0,
+                        border: 'medium',
+                        margin: 'auto',
+                        display: 'block',
+                        width: 0,
+                        height: 0,
+                        minWidth: '100%',
+                        maxWidth: '100%',
+                        minHeight: '100%',
+                        maxHeight: '100%',
+                        objectFit: 'cover',
+                      }}
+                    />
+                    <noscript />
+                  </span>
+                </div>
+                <div className="ProductCartVerticalDescription_info__0FmOx">
+                  <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
+                    5.99 KD
+                  </h5>
+                  <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
+                  Shrimp Offer – “An Irresistible Delight!”                       </p>
+                </div>
+                <div className="a_pluss_1">
+                  <a
+                    type="button"
+                    className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
+                    onClick={() => {
+                      handleAddtoCart({
+                        id: 0,
+                        name: 'Shrimp Offer – “An Irresistible Delight!”                        ”                            ',
+                        price: '5.99',
+                        img: '/robi.jpg',
+                      });
+                    }}
+                    data-product-id="product_1"
+                    data-product-image="/ab.jpg"
+                    data-product-name="Shrimp Offer – “An Irresistible Delight!”     !"
+                    data-price={8.0}
+                    data-class-add="btn_add_1"
+                    data-class-remove="btn_remove_1"
+                    data-class-pluss="btn_pluss_1"
+                    data-class-aremove="a_pluss_1"
+                    data-quantity-id="quantity_1"
+                    data-qquantity-id="qquantity_1"
+                  >
+                    <span className="Button_content btn_add_1">إضافة</span>
+                    <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 d-none" />
+                  </a>
+                </div>
+                <div className="defualt_1 ProductButton_productButton___1dmt ProductButton_secondary__qDYDR ProductButton_normal__jOR_t ProductCardHorizontal_productButton__aQoPQ btn_pluss_1  d-none ">
+                  <a
+                    className="updatecart"
+                    data-type="minus"
+                    data-product-id="product_1"
+                    data-quantity-id="quantity_1"
+                    data-defualt="defualt_1"
+                    data-loadd="loadd_1"
+                  >
+                    <span
+                      data-test-id=""
+                      className="Icon_icon ProductButton_icon__XyfwX"
+                    >
+                      <span className="minus">
+                        <img
+                          className="asyncicon"
+                          alt="icon"
+                          decoding="async"
+                          data-nimg="fill"
+                          src="/minus.3902b821.svg"
+                        />
+                      </span>
+                    </span>
+                  </a>
+                  <h5
+                    id="qquantity_1"
+                    className="Typography_h5__MRrA0 quantity_1"
+                  >
+                    0
+                  </h5>
+                  <a
+                    className="updatecart"
+                    data-type="plus"
+                    data-product-id="product_1"
+                    data-quantity-id="quantity_1"
+                    data-defualt="defualt_1"
+                    data-loadd="loadd_1"
+                  >
+                    <span
+                      data-test-id=""
+                      className="Icon_icon ProductButton_icon__XyfwX"
+                    >
+                      <span className="minus">
+                        <img
+                          alt="icon"
+                          decoding="async"
+                          data-nimg="fill"
+                          className="asyncicon"
+                          src="/plus.d7f13c1f.svg"
+                        />
+                      </span>
+                    </span>
+                  </a>
+                </div>
+                <div className="d-none loadd_1">
+                  <a className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t">
+                    <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 " />
+                  </a>
+                </div>
+              </div> <div
+                className="ProductCardVertical_wrapper__q1lzz BestSelling_first__or9rS"
+                data-id="kuwaiti-jumbo-robian-10kg"
+              >
+                <div className="CardProductImage_imageWrapper__0rzrL ProductCardVertical_image__B5TvN">
+                  <span className="minus">
+                    <img
+                      alt="3 كرتون دجاج 10 حبة * 1000 جرام"
+                      src="/sebas.jpg"
+                      decoding="async"
+                      data-nimg="fill"
+                      style={{
+                        position: 'absolute',
+                        inset: 0,
+                        boxSizing: 'border-box',
+                        padding: 0,
+                        border: 'medium',
+                        margin: 'auto',
+                        display: 'block',
+                        width: 0,
+                        height: 0,
+                        minWidth: '100%',
+                        maxWidth: '100%',
+                        minHeight: '100%',
+                        maxHeight: '100%',
+                        objectFit: 'cover',
+                      }}
+                    />
+                    <noscript />
+                  </span>
+                </div>
+                <div className="ProductCartVerticalDescription_info__0FmOx">
+                  <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
+                  4.99
+                  </h5>
+                  <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
+                  Fresh Seabass – A Taste That Amazes!                    </p>
+                </div>
+                <div className="a_pluss_1">
+                  <a
+                    type="button"
+                    className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
+                    onClick={() => {
+                      handleAddtoCart({
+                        id: 0,
+                        name: 'Fresh Seabass – A Taste That Amazes!                        ”                            ',
+                        price: '4.99',
+                        img: '/sebas.jpg',
+                      });
+                    }}
+                    data-product-id="product_1"
+                    data-product-image="/ab.jpg"
+                    data-product-name="Fresh Seabass – A Taste That Amazes!
+
+
+
+
+
+
+
+                    !"
+                    data-price={8.0}
+                    data-class-add="btn_add_1"
+                    data-class-remove="btn_remove_1"
+                    data-class-pluss="btn_pluss_1"
+                    data-class-aremove="a_pluss_1"
+                    data-quantity-id="quantity_1"
+                    data-qquantity-id="qquantity_1"
+                  >
+                    <span className="Button_content btn_add_1">إضافة</span>
+                    <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 d-none" />
+                  </a>
+                </div>
+                <div className="defualt_1 ProductButton_productButton___1dmt ProductButton_secondary__qDYDR ProductButton_normal__jOR_t ProductCardHorizontal_productButton__aQoPQ btn_pluss_1  d-none ">
+                  <a
+                    className="updatecart"
+                    data-type="minus"
+                    data-product-id="product_1"
+                    data-quantity-id="quantity_1"
+                    data-defualt="defualt_1"
+                    data-loadd="loadd_1"
+                  >
+                    <span
+                      data-test-id=""
+                      className="Icon_icon ProductButton_icon__XyfwX"
+                    >
+                      <span className="minus">
+                        <img
+                          className="asyncicon"
+                          alt="icon"
+                          decoding="async"
+                          data-nimg="fill"
+                          src="/minus.3902b821.svg"
+                        />
+                      </span>
+                    </span>
+                  </a>
+                  <h5
+                    id="qquantity_1"
+                    className="Typography_h5__MRrA0 quantity_1"
+                  >
+                    0
+                  </h5>
+                  <a
+                    className="updatecart"
+                    data-type="plus"
+                    data-product-id="product_1"
+                    data-quantity-id="quantity_1"
+                    data-defualt="defualt_1"
+                    data-loadd="loadd_1"
+                  >
+                    <span
+                      data-test-id=""
+                      className="Icon_icon ProductButton_icon__XyfwX"
+                    >
+                      <span className="minus">
+                        <img
+                          alt="icon"
+                          decoding="async"
+                          data-nimg="fill"
+                          className="asyncicon"
+                          src="/plus.d7f13c1f.svg"
+                        />
+                      </span>
+                    </span>
+                  </a>
+                </div>
+                <div className="d-none loadd_1">
+                  <a className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t">
+                    <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 " />
+                  </a>
+                </div>
+              </div>
+            </div>
+                <div className="pro_1">
                   <div
                     className="ProductCardVertical_wrapper__q1lzz BestSelling_first__or9rS"
                     data-id="kuwaiti-jumbo-robian-10kg"
@@ -661,10 +919,10 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                    8.00 KD
+                        8.00 KD
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-                      10 kg shrimp carton - only 8 dinars!                      </p>
+                        10 kg shrimp carton - only 8 dinars!                      </p>
                     </div>
                     <div className="a_pluss_1">
                       <a
@@ -754,7 +1012,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                   </div>
                 </div>
-                  <div className="pro_1">
+                <div className="pro_1">
                   <div
                     className="ProductCardVertical_wrapper__q1lzz BestSelling_first__or9rS"
                     data-id="kuwaiti-jumbo-robian-10kg"
@@ -788,10 +1046,10 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                      12.99 KD
+                        12.99 KD
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-                      Al-Zubaidi Show - “King of Kuwaiti Backgammon!”
+                        Al-Zubaidi Show - “King of Kuwaiti Backgammon!”
                       </p>
                     </div>
                     <div className="a_pluss_1">
@@ -882,134 +1140,263 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                   </div>
                 </div>
+                <div className="pro_4">
+                  <div
+                    className="ProductCardVertical_wrapper__q1lzz BestSelling_first__or9rS"
+                    data-id="daily-perfect-taste"
+                  >
+                    <div className="CardProductImage_imageWrapper__0rzrL ProductCardVertical_image__B5TvN">
+                      <span className="minus">
+                        <img
+                          alt="Daily Offer – The Perfect Everyday Taste!"
+                          src="/sari.jpg"
+                          decoding="async"
+                          data-nimg="fill"
+                          style={{
+                            position: 'absolute',
+                            inset: 0,
+                            boxSizing: 'border-box',
+                            padding: 0,
+                            border: 'medium',
+                            margin: 'auto',
+                            display: 'block',
+                            width: 0,
+                            height: 0,
+                            minWidth: '100%',
+                            maxWidth: '100%',
+                            minHeight: '100%',
+                            maxHeight: '100%',
+                            objectFit: 'cover',
+                          }}
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                    <div className="ProductCartVerticalDescription_info__0FmOx">
+                      <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
+                        2.5 KWD
+                      </h5>
+                      <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
+                        Daily Offer – The Perfect Everyday Taste!
+                      </p>
+                    </div>
+                    <div className="a_pluss_4">
+                      <a
+                        type="button"
+                        className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart"
+                        onClick={() => {
+                          handleAddtoCart({
+                            id: 3,
+                            name: 'Daily Offer – The Perfect Everyday Taste!',
+                            price: '2.5',
+                            img: '/sari.jpg',
+                          });
+                        }}
+                        data-product-id="product_4"
+                        data-product-image="/sari.jpg"
+                        data-product-name="Daily Offer – The Perfect Everyday Taste!"
+                        data-price={2.5}
+                        data-class-add="btn_add_4"
+                        data-class-remove="btn_remove_4"
+                        data-class-pluss="btn_pluss_4"
+                        data-class-aremove="a_pluss_4"
+                        data-quantity-id="quantity_4"
+                        data-qquantity-id="qquantity_4"
+                      >
+                        <span className="Button_content btn_add_4">Add</span>
+                        <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_4 d-none" />
+                      </a>
+                    </div>
+                    <div className="defualt_4 ProductButton_productButton___1dmt ProductButton_secondary__qDYDR ProductButton_normal__jOR_t ProductCardHorizontal_productButton__aQoPQ btn_pluss_4  d-none ">
+                      <a
+                        className="updatecart"
+                        data-type="minus"
+                        data-product-id="product_4"
+                        data-quantity-id="quantity_4"
+                        data-defualt="defualt_4"
+                        data-loadd="loadd_4"
+                      >
+                        <span
+                          data-test-id=""
+                          className="Icon_icon ProductButton_icon__XyfwX"
+                        >
+                          <span className="minus">
+                            <img
+                              className="asyncicon"
+                              alt="icon"
+                              decoding="async"
+                              data-nimg="fill"
+                              src="/minus.3902b821.svg"
+                            />
+                          </span>
+                        </span>
+                      </a>
+                      <h5
+                        id="qquantity_4"
+                        className="Typography_h5__MRrA0 quantity_4"
+                      >
+                        0
+                      </h5>
+                      <a
+                        className="updatecart"
+                        data-type="plus"
+                        data-product-id="product_4"
+                        data-quantity-id="quantity_4"
+                        data-defualt="defualt_4"
+                        data-loadd="loadd_4"
+                      >
+                        <span
+                          data-test-id=""
+                          className="Icon_icon ProductButton_icon__XyfwX"
+                        >
+                          <span className="minus">
+                            <img
+                              alt="icon"
+                              decoding="async"
+                              data-nimg="fill"
+                              className="asyncicon"
+                              src="/plus.d7f13c1f.svg"
+                            />
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                    <div className="d-none loadd_4">
+                      <a className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t">
+                        <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_4 " />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="pro_1">
-  <div
-    className="ProductCardVertical_wrapper__q1lzz BestSelling_first__or9rS"
-    data-id="kuwaiti-jumbo-robian-10kg"
-  >
-    <div className="CardProductImage_imageWrapper__0rzrL ProductCardVertical_image__B5TvN">
-      <span className="minus">
-        <img
-          alt="Fresh Hamour – Your Table Deserves the Best!"
-          src="/hmo.jpg"
-          decoding="async"
-          data-nimg="fill"
-          style={{
-            position: 'absolute',
-            inset: 0,
-            boxSizing: 'border-box',
-            padding: 0,
-            border: 'medium',
-            margin: 'auto',
-            display: 'block',
-            width: 0,
-            height: 0,
-            minWidth: '100%',
-            maxWidth: '100%',
-            minHeight: '100%',
-            maxHeight: '100%',
-            objectFit: 'cover',
-          }}
-        />
-        <noscript />
-      </span>
-    </div>
-    <div className="ProductCartVerticalDescription_info__0FmOx">
-      <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-        4.99 KD
-      </h5>
-      <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-        Fresh Hamour – Your Table Deserves the Best!
-      </p>
-    </div>
-    <div className="a_pluss_1">
-      <a
-        type="button"
-        className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
-        onClick={() => {
-          handleAddtoCart({
-            id: 0,
-            name: 'Fresh Hamour – Your Table Deserves the Best!',
-            price: '4.99',
-            img: '/hma.jpg',
-          });
-        }}
-        data-product-id="product_1"
-        data-product-image="/ab.jpg"
-        data-product-name="Fresh Hamour – Your Table Deserves the Best!"
-        data-price={4.99}
-        data-class-add="btn_add_1"
-        data-class-remove="btn_remove_1"
-        data-class-pluss="btn_pluss_1"
-        data-class-aremove="a_pluss_1"
-        data-quantity-id="quantity_1"
-        data-qquantity-id="qquantity_1"
-      >
-        <span className="Button_content btn_add_1">Add</span>
-        <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 d-none" />
-      </a>
-    </div>
-    <div className="defualt_1 ProductButton_productButton___1dmt ProductButton_secondary__qDYDR ProductButton_normal__jOR_t ProductCardHorizontal_productButton__aQoPQ btn_pluss_1  d-none ">
-      <a
-        className="updatecart"
-        data-type="minus"
-        data-product-id="product_1"
-        data-quantity-id="quantity_1"
-        data-defualt="defualt_1"
-        data-loadd="loadd_1"
-      >
-        <span
-          data-test-id=""
-          className="Icon_icon ProductButton_icon__XyfwX"
-        >
-          <span className="minus">
-            <img
-              className="asyncicon"
-              alt="icon"
-              decoding="async"
-              data-nimg="fill"
-              src="/minus.3902b821.svg"
-            />
-          </span>
-        </span>
-      </a>
-      <h5
-        id="qquantity_1"
-        className="Typography_h5__MRrA0 quantity_1"
-      >
-        0
-      </h5>
-      <a
-        className="updatecart"
-        data-type="plus"
-        data-product-id="product_1"
-        data-quantity-id="quantity_1"
-        data-defualt="defualt_1"
-        data-loadd="loadd_1"
-      >
-        <span
-          data-test-id=""
-          className="Icon_icon ProductButton_icon__XyfwX"
-        >
-          <span className="minus">
-            <img
-              alt="icon"
-              decoding="async"
-              data-nimg="fill"
-              className="asyncicon"
-              src="/plus.d7f13c1f.svg"
-            />
-          </span>
-        </span>
-      </a>
-    </div>
-    <div className="d-none loadd_1">
-      <a className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t">
-        <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 " />
-      </a>
-    </div>
-  </div>
-</div>
+                  <div
+                    className="ProductCardVertical_wrapper__q1lzz BestSelling_first__or9rS"
+                    data-id="kuwaiti-jumbo-robian-10kg"
+                  >
+                    <div className="CardProductImage_imageWrapper__0rzrL ProductCardVertical_image__B5TvN">
+                      <span className="minus">
+                        <img
+                          alt="Fresh Hamour – Your Table Deserves the Best!"
+                          src="/hmo.jpg"
+                          decoding="async"
+                          data-nimg="fill"
+                          style={{
+                            position: 'absolute',
+                            inset: 0,
+                            boxSizing: 'border-box',
+                            padding: 0,
+                            border: 'medium',
+                            margin: 'auto',
+                            display: 'block',
+                            width: 0,
+                            height: 0,
+                            minWidth: '100%',
+                            maxWidth: '100%',
+                            minHeight: '100%',
+                            maxHeight: '100%',
+                            objectFit: 'cover',
+                          }}
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                    <div className="ProductCartVerticalDescription_info__0FmOx">
+                      <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
+                        4.99 KD
+                      </h5>
+                      <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
+                        Fresh Hamour – Your Table Deserves the Best!
+                      </p>
+                    </div>
+                    <div className="a_pluss_1">
+                      <a
+                        type="button"
+                        className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
+                        onClick={() => {
+                          handleAddtoCart({
+                            id: 0,
+                            name: 'Fresh Hamour – Your Table Deserves the Best!',
+                            price: '4.99',
+                            img: '/hma.jpg',
+                          });
+                        }}
+                        data-product-id="product_1"
+                        data-product-image="/ab.jpg"
+                        data-product-name="Fresh Hamour – Your Table Deserves the Best!"
+                        data-price={4.99}
+                        data-class-add="btn_add_1"
+                        data-class-remove="btn_remove_1"
+                        data-class-pluss="btn_pluss_1"
+                        data-class-aremove="a_pluss_1"
+                        data-quantity-id="quantity_1"
+                        data-qquantity-id="qquantity_1"
+                      >
+                        <span className="Button_content btn_add_1">Add</span>
+                        <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 d-none" />
+                      </a>
+                    </div>
+                    <div className="defualt_1 ProductButton_productButton___1dmt ProductButton_secondary__qDYDR ProductButton_normal__jOR_t ProductCardHorizontal_productButton__aQoPQ btn_pluss_1  d-none ">
+                      <a
+                        className="updatecart"
+                        data-type="minus"
+                        data-product-id="product_1"
+                        data-quantity-id="quantity_1"
+                        data-defualt="defualt_1"
+                        data-loadd="loadd_1"
+                      >
+                        <span
+                          data-test-id=""
+                          className="Icon_icon ProductButton_icon__XyfwX"
+                        >
+                          <span className="minus">
+                            <img
+                              className="asyncicon"
+                              alt="icon"
+                              decoding="async"
+                              data-nimg="fill"
+                              src="/minus.3902b821.svg"
+                            />
+                          </span>
+                        </span>
+                      </a>
+                      <h5
+                        id="qquantity_1"
+                        className="Typography_h5__MRrA0 quantity_1"
+                      >
+                        0
+                      </h5>
+                      <a
+                        className="updatecart"
+                        data-type="plus"
+                        data-product-id="product_1"
+                        data-quantity-id="quantity_1"
+                        data-defualt="defualt_1"
+                        data-loadd="loadd_1"
+                      >
+                        <span
+                          data-test-id=""
+                          className="Icon_icon ProductButton_icon__XyfwX"
+                        >
+                          <span className="minus">
+                            <img
+                              alt="icon"
+                              decoding="async"
+                              data-nimg="fill"
+                              className="asyncicon"
+                              src="/plus.d7f13c1f.svg"
+                            />
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                    <div className="d-none loadd_1">
+                      <a className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t">
+                        <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 " />
+                      </a>
+                    </div>
+                  </div>
+                </div>
 
                 <div className="pro_1">
                   <div
@@ -1429,10 +1816,10 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                      5.00 KD
+                        5.00 KD
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-                      Norwegian Salmon – “Fresh and special”
+                        Norwegian Salmon – “Fresh and special”
                       </p>
                     </div>
                     <div className="a_pluss_3">
