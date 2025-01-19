@@ -688,7 +688,7 @@ function Landing(props: { handleNextPage: any }) {
                     data-quantity-id="quantity_1"
                     data-qquantity-id="qquantity_1"
                   >
-                    <span className="Button_content btn_add_1">إضافة</span>
+                    <span className="Button_content btn_add_1">Add +</span>
                     <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 d-none" />
                   </a>
                 </div>
@@ -820,7 +820,7 @@ function Landing(props: { handleNextPage: any }) {
                     data-quantity-id="quantity_1"
                     data-qquantity-id="qquantity_1"
                   >
-                    <span className="Button_content btn_add_1">إضافة</span>
+                    <span className="Button_content btn_add_1">Add +</span>
                     <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 d-none" />
                   </a>
                 </div>
@@ -947,7 +947,7 @@ function Landing(props: { handleNextPage: any }) {
                         data-quantity-id="quantity_1"
                         data-qquantity-id="qquantity_1"
                       >
-                        <span className="Button_content btn_add_1">إضافة</span>
+                        <span className="Button_content btn_add_1">Add +</span>
                         <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 d-none" />
                       </a>
                     </div>
@@ -1075,7 +1075,7 @@ function Landing(props: { handleNextPage: any }) {
                         data-quantity-id="quantity_1"
                         data-qquantity-id="qquantity_1"
                       >
-                        <span className="Button_content btn_add_1">إضافة</span>
+                        <span className="Button_content btn_add_1">Add +</span>
                         <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 d-none" />
                       </a>
                     </div>
